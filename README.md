@@ -7,7 +7,9 @@ Cinegenie is an app that utilizes a machine learning based approach to reccomend
     - Be able to Add Friends​
     - Have your own Profile & Profile Picture via firebase, etc.
 
-You can visit it NOW at [cinegenie.live]('cineegenie.live')! Team workflow was done via **Jira** and additional documentation, personas, & scenarios was all done in **Confluence** via atlassian.
+You can visit it NOW at **cinegenie.live**! 
+
+Team workflow was done via **Jira** and additional documentation, personas, & scenarios was all done in **Confluence** via atlassian.
 
 ## How it works
 
