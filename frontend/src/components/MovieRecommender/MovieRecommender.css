@@ -1,0 +1,13 @@
+li{
+    list-style: none;
+}
+.personal-recc-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    color: white;
+  }
+  .reccommender-container{
+    height: 70vh;
+  }

@@ -1,0 +1,29 @@
+# Git ignore for backend:
+
+__pycache__/
+lib/
+scripts/
+include/
+work/
+data/
+.DS_Store
+
+# data files (from Gdrive)
+## the X and y
+movie_*.npy 
+
+## actual model - testing
+improved_movie_rating_model.keras
+
+## df(s)
+processed_*.csv
+processed_*.json
+
+##data for frontend inference
+recommendation_metadata.json
+data/
+*venv/
+venv/
+
+#env
+pyvenv.cfg

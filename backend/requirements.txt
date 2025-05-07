@@ -1,0 +1,5 @@
+pandas
+numpy
+scikit-learn
+tensorflow
+tensorflowjs # note you might need to disable this since there are issues known on windows.

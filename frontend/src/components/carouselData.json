@@ -1,0 +1,16 @@
+{
+	"slides":[
+		{
+			"src": "https://picsum.photos/id/237/200/300",
+			"alt": "doggy1"
+		},
+		{
+			"src": "https://picsum.photos/seed/picsum/200/300",
+			"alt": "mtn"
+		},
+		{
+			"src": "https://picsum.photos/200/300/?blur=2",
+			"alt": "office"
+		}
+	]
+}

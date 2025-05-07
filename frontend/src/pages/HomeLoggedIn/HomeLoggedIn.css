@@ -1,0 +1,23 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0;
+  display: block;
+  height: auto;
+} */
+
+html,
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.background-home-loggedin {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  /* margin-bottom: 1000px; */
+}

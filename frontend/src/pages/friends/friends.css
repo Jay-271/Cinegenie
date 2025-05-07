@@ -1,0 +1,86 @@
+.friends-container {
+  padding-top: 240px;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.friends-list {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.ordered-friends
+{
+	
+	display: inline-flex;
+}
+
+.add-friend{
+	margin-left: 10px;
+	background: #4d26eb;
+	color: black;
+}
+
+.requested-friend{
+	margin-left: 10px;
+	background: #979797;
+	color: black;
+}
+
+.unadd-friend{
+	margin-left: 10px;
+	background: #E40078;
+	color: black;
+}
+
+.friend-card {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  color: black;
+  min-width: 200px;
+  max-width: 100%;
+}
+
+.friend-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.friend-name {
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.back-home {
+  margin-top: 20px;
+}
+
+.background {
+  background-color: black;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.nvbr
+{
+	background-color: black;
+}
