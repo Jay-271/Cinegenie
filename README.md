@@ -1,38 +1,56 @@
-# Welcome to the absolute bare minimum of CinieGinie.
+# Welcome CineGenie!
+
+Cinegenie is an app that utilizes a machine learning based approach to reccomend you your next favorite movie. Some features of our webapp include:
+    - Movies Recommended To You​
+    - Account Creation​
+    - Be able to See Friends Liked Movies​
+    - Be able to Add Friends​
+    - Have your own Profile & Profile Picture via firebase, etc.
+
+You can visit it NOW at [cinegenie.live]('cineegenie.live')! Team workflow was done via **Jira** and additional documentation, personas, & scenarios was all done in **Confluence** via atlassian.
+
+## How it works
+
+Cinegenie has a fully client-side architecture with cloud-based authentication and related database features.​ The main component of our app is our ML model. It is unique to each user and is finetuned on every visit to our website.
+
+Our tech stack:
+    - React + Vite for framework using Typescript for type safety.
+        * Additional component libraries were used including bootstrap, react-router, etc.
+    - Firebase (Firebase Storage, Firebase Store)​ for profile picures, users auth, etc.
+    - Jest for testing
+    - Machine learning libraries such as Tensorflow, TensorflowJS, pandas, numpy, etc.
+
+## About the model
+
+The ML model was evaluated after training on user preference data and achieved approximately 97% accuracy in predicting how much a user would like a given movie. Evaluation metrics included Mean Squared Error (MSE) and Mean Absolute Error (MAE).​
+- Essentially, the model can learn what YOU like with an accuracy of up to 97%.
+
+## TODO
+
+1. Expanding our dataset to ALL movies and having a model for TV Series would be a great addition​
+2. Model optimizations techniques in the finetuning process such as memory cleanup, etc.​
+3. Having English Movies​
+4. Recommended Movie Goes to Card​
+5. Being able to rate the movies you’ve watched​
+6. Being able to write reviews on the movies you’ve watched​
+
+# Frontend Quickstart
+
 -> Install [Node.js](https://nodejs.org/en/download) <br />
 -> Install [Python3.11](https://www.python.org/downloads/release/python-3114/) <br />
 
-
-> Key notes:
-1. You *might* have to re-create your own virtual environment when trying to work on the backend. An easy way to do it is by...
-    - cd backend
-    - *use python 3.11.x* 
-    - python3 or python -m venv work
-    - cd work
-    - ./scripts/activate or source scripts/activate
-    - cd ..
-    - *make sure your env is activated it should say `(work) YourPath/ciniegenie/backend`
-    - pip or pip3 install -r requirements.txt
-    - python3 or python app.py
-2. To run the frontend open up a new terminal from the root directory `ciniegenie`
+To run the frontend open up a new terminal from the root directory `ciniegenie`
     - cd frontend
     - npm install
-    - npm install axios react-router-dom
     - npm run dev
-3. If you followed everything and all is good then You're cooking!
-    - If something is wrong dm Jason on teams.
 
-> I do want to note we really shouldn't be working on coding for right now - we still have to do our personas and stuff but I figured I'd get the template stuff out the way.
-
-* If everything works it will look like this:
-    - ![Console Output](images/console.png)
-    - ![Localhost image](images/localhost.png)
-* If backend doesn't work it will look like this:
-    - ![No backend](images/no-backend.png)
-* If frontend doesn't work... well there's no webpage
+> Additional dependencies might be missing, if so just try and build the project in the `frontend` directory or simply test the app fully works using `npm run dev`.
 
 
-# Backend Model Creation
+If you followed everything and all is good then You're all set up!
+    - If something is wrong please contact one of the contributors.
+
+# Backend Quickstart
 
 ## 1. Setting Up Your Environment
 
