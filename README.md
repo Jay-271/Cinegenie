@@ -38,6 +38,37 @@ The ML model was evaluated after training on user preference data and achieved a
 
 # Frontend Quickstart
 
+** This project will not work without a `firebaseconfig.ts` file. This file can look something like this:
+
+```ts
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAuth } from "firebase/auth";
+import { getFirestore } from "firebase/firestore";
+import { getStorage } from "firebase/storage";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+const firebaseConfig = {
+  apiKey: "",
+  authDomain: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: "",
+  appId: ""
+};
+
+export const OMDB_KEYS = ["","", ""]
+
+
+// Initialize Firebase
+export const FIREBASE = initializeApp(firebaseConfig);
+export const FIREBASE_AUTH = getAuth(FIREBASE);
+export const FIRESTORE_DB = getFirestore(FIREBASE);
+export const FIREBASE_STORAGE = getStorage(FIREBASE);
+```
+
 -> Install [Node.js](https://nodejs.org/en/download) <br />
 -> Install [Python3.11](https://www.python.org/downloads/release/python-3114/) <br />
 
