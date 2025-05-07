@@ -1,13 +1,13 @@
 # Welcome CineGenie!
 
 Cinegenie is an app that utilizes a machine learning based approach to reccomend you your next favorite movie. Some features of our webapp include:
-    - Movies Recommended To You​
-    - Account Creation​
-    - Be able to See Friends Liked Movies​
-    - Be able to Add Friends​
-    - Have your own Profile & Profile Picture via firebase, etc.
+- Movies Recommended To You​
+- Account Creation​
+- Be able to See Friends Liked Movies​
+- Be able to Add Friends​
+- Have your own Profile & Profile Picture via firebase, etc.
 
-You can visit it NOW at **cinegenie.live**! 
+> You can visit it NOW at **cinegenie.live**! 
 
 Team workflow was done via **Jira** and additional documentation, personas, & scenarios was all done in **Confluence** via atlassian.
 
@@ -16,11 +16,11 @@ Team workflow was done via **Jira** and additional documentation, personas, & sc
 Cinegenie has a fully client-side architecture with cloud-based authentication and related database features.​ The main component of our app is our ML model. It is unique to each user and is finetuned on every visit to our website.
 
 Our tech stack:
-    - React + Vite for framework using Typescript for type safety.
-        * Additional component libraries were used including bootstrap, react-router, etc.
-    - Firebase (Firebase Storage, Firebase Store)​ for profile picures, users auth, etc.
-    - Jest for testing
-    - Machine learning libraries such as Tensorflow, TensorflowJS, pandas, numpy, etc.
+- React + Vite for framework using Typescript for type safety.
+    * Additional component libraries were used including bootstrap, react-router, etc.
+- Firebase (Firebase Storage, Firebase Store)​ for profile picures, users auth, etc.
+- Jest for testing
+- Machine learning libraries such as Tensorflow, TensorflowJS, pandas, numpy, etc.
 
 ## About the model
 
